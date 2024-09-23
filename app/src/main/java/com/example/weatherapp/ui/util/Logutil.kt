@@ -8,7 +8,7 @@ class Logutil {
 
     companion object{
 
-        private const val TAG :String = "WeatherApp"
+        private const val TAG :String = "TestApp"
         private const val isLogging : Boolean = true
 
         fun d( message: String){

@@ -11,12 +11,12 @@ interface ApiServices {
     fun getCountries() : Call<WeatherInfo>
 
     @GET("/data/2.5/weather")
-    fun getWeatherByCity(@Query("q") city : String, @Query("appid") apiKey : String):Call<WeatherInfo>
+    fun getWeatherByCity(@Query("q") city : String, @Query("appid") apiKey : String, @Query("units") units : String ="imperial"):Call<WeatherInfo>
 
     @GET("/data/2.5/weather")
-    fun getWeatherByCityAndCountrycode(@Query("q") city : String,@Query("q")countryCode : String, @Query("appid") apiKey : String):Call<WeatherInfo>
+    fun getWeatherByCityAndCountrycode(@Query("q") city : String,@Query("q")countryCode : String, @Query("appid") apiKey : String, @Query("units") units : String ="imperial"):Call<WeatherInfo>
 
     @GET("/data/2.5/weather")
-    fun getWeatherByFullName(@Query("q") city : String,@Query("q")stateCode : String,@Query("q")countryCode : String, @Query("appid") apiKey : String):Call<WeatherInfo>
+    fun getWeatherByFullName(@Query("q") city : String,@Query("q")stateCode : String,@Query("q")countryCode : String, @Query("appid") apiKey : String,  @Query("units") units : String ="imperial"):Call<WeatherInfo>
 
 }

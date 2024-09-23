@@ -34,6 +34,7 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.material.snackbar.Snackbar
+import kotlin.math.roundToInt
 
 
 /**
@@ -121,13 +122,16 @@ class FirstFragment : Fragment() , OnMapReadyCallback {
 
     fun updateUI(weatherInfo: WeatherInfo, context: Context){
         Logutil.d("Code is "+weatherInfo.cod)
+
+        Logutil.d("Code is ${weatherInfo.main!!.temp?.roundToInt()}")
+        Logutil.d("Code is "+weatherInfo.cod)
         _binding?.textViewTitle?.text= cityName
-        _binding!!.textViewTemp.text = "Temp ${weatherInfo.main!!.temp.toString()}"
-        _binding!!.textViewFeelsLike.text = "Feels like  ${weatherInfo.main!!.feelsLike.toString()}"
-        _binding!!.textViewHumidity.text = "Humidity ${weatherInfo.main!!.humidity.toString()}"
+        _binding!!.textViewTemp.text = "Temp ${weatherInfo.main!!.temp?.roundToInt()}  F"
+        _binding!!.textViewFeelsLike.text = "Feels like  ${weatherInfo.main!!.feelsLike?.roundToInt()} F"
+        _binding!!.textViewHumidity.text = "Humidity ${weatherInfo.main!!.humidity.toString()} %"
         _binding!!.textViewPressure.text = "Pressure  ${weatherInfo.main!!.pressure.toString()}"
 
-        _binding!!.textViewSpeed.text = "Wind Speed  ${weatherInfo.wind!!.speed.toString()}"
+        _binding!!.textViewSpeed.text = "Wind Speed  ${weatherInfo.wind!!.speed.toString()} m/h"
         _binding!!.textViewDeg.text = "Degree  ${weatherInfo.wind!!.deg.toString()}"
         _binding!!.textViewGust.text = "Gust  ${weatherInfo.wind!!.gust.toString()}"
 
