@@ -17,6 +17,7 @@ import androidx.annotation.Nullable
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.CustomTarget
@@ -70,7 +71,9 @@ class FirstFragment : Fragment() , OnMapReadyCallback {
     @RequiresApi(Build.VERSION_CODES.M)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        mViewModel = ViewModelProviders.of(this).get(WeatherViewModel::class.java)
+        mViewModel = ViewModelProvider(this).get(WeatherViewModel::class.java)
+
+       // mViewModel = ViewModelProviders.of(this).get(WeatherViewModel::class.java)
         mViewModel.test.observe(viewLifecycleOwner, Observer { kt->
             context?.let {
                 if(kt.sys?.country.toString().equals("US")) {

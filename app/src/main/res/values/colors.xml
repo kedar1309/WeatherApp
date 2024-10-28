@@ -10,4 +10,122 @@
     <color name="lightbackground">#D3D3D3</color>
     <color name="blue">#7CB9E8</color>
 
+
+
+        <color name="vds_subtitle_gray">#6F7171</color>
+        <color name="vds_color_background_brandhighlight">#ffee0000</color>
+        <color name="vds_color_background_primary_dark">#ff000000</color>
+        <color name="vds_color_background_primary_light">#ffffffff</color>
+        <color name="vds_color_background_secondary_dark">#ff1b1d1f</color>
+        <color name="vds_color_background_secondary_light">#fff6f6f6</color>
+        <color name="vds_color_elements_brandhighlight">#ffee0000</color>
+        <color name="vds_color_elements_primary_ondark">#ffffffff</color>
+        <color name="vds_color_elements_primary_onlight">#ff000000</color>
+        <color name="vds_color_elements_secondary_ondark">#ffa7a7a7</color>
+        <color name="vds_color_elements_secondary_onlight">#ff6f7171</color>
+        <color name="vds_color_feedback_error_background_ondark">#561701</color>
+        <color name="vds_color_feedback_error_background_onlight">#FFECE0</color>
+        <color name="vds_color_feedback_error_ondark">#FF8027</color>
+        <color name="vds_color_feedback_error_onlight">#B95319</color>
+        <color name="vds_color_feedback_information_background_ondark">#002C4D</color>
+        <color name="vds_color_feedback_information_background_onlight">#E3F2FD</color>
+        <color name="vds_color_feedback_information_ondark">#ff0096e4</color>
+        <color name="vds_color_feedback_information_onlight">#ff0077b4</color>
+        <color name="vds_color_feedback_success_background_ondark">#003514</color>
+        <color name="vds_color_feedback_success_background_onlight">#DCF5E6</color>
+        <color name="vds_color_feedback_success_ondark">#ff00ac3e</color>
+        <color name="vds_color_feedback_success_onlight">#ff008330</color>
+        <color name="vds_color_feedback_warning_background_ondark">#4B3F04</color>
+        <color name="vds_color_feedback_warning_background_onlight">#FFF9DE</color>
+        <color name="vds_color_feedback_warning_ondark">#ffffbc3d</color>
+        <color name="vds_color_feedback_warning_onlight">#ffffbc3d</color>
+        <color name="vds_color_interactive_active_ondark">#ffa7a7a7</color>
+        <color name="vds_color_interactive_active_onlight">#ff6f7171</color>
+        <color name="vds_color_interactive_disabled_ondark">#ff333333</color>
+        <color name="vds_color_interactive_disabled_onlight">#ffd8dada</color>
+        <color name="vds_color_interactive_scrollthumb_hover_ondark">#ffd8dada</color>
+        <color name="vds_color_interactive_scrollthumb_hover_onlight">#ff333333</color>
+        <color name="vds_color_interactive_scrollthumb_ondark">#ffa7a7a7</color>
+        <color name="vds_color_interactive_scrollthumb_onlight">#ff6f7171</color>
+        <color name="vds_color_interactive_scrolltrack_ondark">#ff333333</color>
+        <color name="vds_color_interactive_scrolltrack_onlight">#ffd8dada</color>
+        <color name="vds_color_palette_black">#ff000000</color>
+        <color name="vds_color_palette_blue13">#ff002b42</color>
+        <color name="vds_color_palette_blue35">#ff0077b4</color>
+        <color name="vds_color_palette_blue38">#FF006FC1</color>
+        <color name="vds_color_palette_blue45">#ff0096e4</color>
+        <color name="vds_color_palette_blue46">#FF0089EC</color>
+        <color name="vds_color_palette_blue91">#ffd6eefb</color>
+        <color name="vds_color_palette_gray11">#ff1b1d1f</color>
+        <color name="vds_color_palette_gray20">#ff333333</color>
+        <color name="vds_color_palette_gray44">#ff6f7171</color>
+        <color name="vds_color_palette_gray65">#ffa7a7a7</color>
+        <color name="vds_color_palette_gray85">#ffd8dada</color>
+        <color name="vds_color_palette_gray95">#fff6f6f6</color>
+        <color name="vds_color_palette_green11">#ff003614</color>
+        <color name="vds_color_palette_green26">#ff008330</color>
+        <color name="vds_color_palette_green34">#ff00ac3e</color>
+        <color name="vds_color_palette_green36">#ff00B845</color>
+        <color name="vds_color_palette_green89">#ffd6f2e0</color>
+        <color name="vds_color_palette_green">#003614</color>
+        <color name="vds_color_palette_orange15">#ff4a1c02</color>
+        <color name="vds_color_palette_orange39">#ffc44904</color>
+        <color name="vds_color_palette_orange41">#FFB95319</color>
+        <color name="vds_color_palette_orange46">#ffed7000</color>
+        <color name="vds_color_palette_orange58">#FFFF8027</color>
+        <color name="vds_color_palette_orange91">#fffbe4d7</color>
+        <color name="vds_color_palette_red">#ffee0000</color>
+        <color name="vds_color_palette_white">#ffffffff</color>
+        <color name="vds_color_palette_yellow20">#ff523c14</color>
+        <color name="vds_color_palette_yellow62">#ffffbc3d</color>
+        <color name="vds_color_palette_yellow94">#fffff4e0</color>
+        <color name="vds_color_palette_yellow53">#FFFED60E</color>
+        <color name="vds_color_palette_yellow74">#FFFFE97A</color>
+        <color name="vds_color_palette_border_onlight">#6F7171</color>
+        <color name="vds_color_palette_border_ondark">#A7A7A7</color>
+        <color name="radio_box_disabled_onlight">#D8DADA</color>
+        <color name="radio_box_disabled_ondark">#333333</color>
+        <color name="vds_button_icon_low_contrast_onlight">#6f7171</color>
+        <color name="vds_button_icon_low_contrast_ondrak">#6f7171</color>
+        <color name="vds_button_icon_low_contrast_onlight_disabled">#d8dada</color>
+        <color name="vds_button_icon_low_contrast_ondark_disabled">#000000</color>
+        <color name="vds_formcontrols_color_background_onlight">#FFFFFF</color>
+        <color name="vds_formcontrols_color_background_ondark">#000000</color>
+        <color name="vds_formcontrols_color_border_onlight">#6F7171</color>
+        <color name="vds_formcontrols_color_border_ondark">#A7A7A7</color>
+        <color name="vds_formcontrols_color_border_hover_onlight">#000000</color>
+        <color name="vds_formcontrols_color_border_hover_ondark">#FFFFFF</color>
+        <color name="vds_formcontrols_color_border_readonly_onlight">#D8DADA</color>
+        <color name="vds_formcontrols_color_border_readonly_ondark">#333333</color>
+
+
+        <color name="vds_color_component_toggle_knob_disabled_onlight">#F6F6F6</color>
+        <color name="vds_color_component_toggle_knob_disabled_ondark">#6F7171</color>
+        <color name="vds_color_component_toggle_container_on_onlight">#008331</color>
+        <color name="vds_color_component_toggle_container_on_ondark">#00B845</color>
+
+        <color name="vds_tab_line_onlight">#D8DADA</color>
+        <color name="vds_tab_line_ondark">#333333</color>
+        <color name="battleshipGrey">#747676</color>
+
+        <color name="tooltip_bg">#80000000</color>
+        <color name="light_blue_400">#FF29B6F6</color>
+        <color name="light_blue_600">#FF039BE5</color>
+        <color name="gray_400">#FFBDBDBD</color>
+        <color name="gray_600">#FF757575</color>
+
+        <color name="vds_color_component_pricelockup_savings_onlight">#008331</color>
+        <color name="vds_color_component_pricelockup_savings_ondark">#00B845</color>
+        <color name="component_buttonicon_background_lowcontrast_floating_ondark">#333333</color>
+        <color name="component_buttonicon_background_highcontrast_floating_onlight">#333333</color>
+        <color name="component_buttonicon_background_highcontrast_floating_ondark">#FFFFFF</color>
+        <color name="element_lowcontrast_onlight">#D8DADA</color>
+        <color name="element_lowcontrast_ondark">#333333</color>
+
+        <color name="vds_badge_indicator_gray_low_contrast_onlight">#D8DADA</color>
+        <color name="vds_badge_indicator_gray_low_contrast_ondark">#333333</color>
+        <color name="vds_badge_indicator_gray_high_contrast_onlight">#6F7171</color>
+        <color name="vds_badge_indicator_gray_high_contrast_ondark">#A7A7A7</color>
+
+
 </resources>
